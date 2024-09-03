@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#23B67C">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LoginScreen"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:textSize="25sp"
+        android:background="#3A4EBF"
+        android:textColor="@color/white"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="200dp"
+        android:text="Username"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:textColor="#766767"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="Password"
+        android:textAllCaps="false"
+        android:textAlignment="textStart"
+        android:textColor="#766767"
+        android:layout_marginTop="250dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#3C9B1A"
+        android:layout_marginTop="300dp"
+        android:background="#B1A8A8" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:text="Not a member? Sign in now"/>
+
+
+
+</RelativeLayout>
