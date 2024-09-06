@@ -10,6 +10,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.layout2)
+        setContentView(R.layout.layout7)
     }
 }
